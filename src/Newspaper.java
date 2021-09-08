@@ -10,5 +10,17 @@ public class Newspaper implements Directions{
         UrRobot bot = new UrRobot(3, 4,
                 West, 0);
 
+        bot.move();
+        bot.move();
+        bot.pickBeeper();
+        bot.move();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.putBeeper();
+        bot.move();
+        bot.turnLeft();
+
     }
+
 }
